@@ -9,6 +9,7 @@ namespace CPTCAppNew.iOS
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
+	    UIWindow window;
 
 		public override UIWindow Window {
 			get;
