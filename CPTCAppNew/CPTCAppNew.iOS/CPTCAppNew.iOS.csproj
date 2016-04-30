@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>f8437848-0dfa-4730-97cd-fe0302e1737d</ProjectGuid>
+    <ProjectGuid>{F8437848-0DFA-4730-97CD-FE0302E1737D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>CPTCAppNew.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -69,6 +69,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CPTCAppNew\CPTCAppNew.csproj">
       <Name>CPTCAppNew</Name>
+      <Project>{FEF7635D-86DF-4A4B-BFF4-9767ECE508D8}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
