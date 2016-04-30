@@ -21,6 +21,7 @@ namespace CPTCAppNew.iOS {
             // calling dequeue automatically returns a row from the table in the Home table controller,
             // at least when dealing with a storyboard.
             UITableViewCell cell = tableView.DequeueReusableCell(cellIdentifier);
+            return cell;
 
         }
 
