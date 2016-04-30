@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="17">
             <objects>
-                <tableViewController id="18" sceneMemberID="viewController" customClass="MainTableViewController" storyboardIdentifier="MainTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                <tableViewController id="18" sceneMemberID="viewController" customClass="MainTableViewController" storyboardIdentifier="MainTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" title="MyCPTC">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="19" restorationIdentifier="HomeTableView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,10 +197,6 @@
                             <accessibilityTraits key="traits" none="YES" image="YES" link="YES"/>
                         </accessibility>
                         <color key="separatorColor" colorSpace="calibratedRGB" red="0.3843137254901961" green="0.094117647058823528" blue="0.5725490196078431" alpha="1"/>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="2384" key="tableFooterView" image="simon.png" tag="0">
-                            <rect key="frame" x="0.0" y="460" width="600" height="140"/>
-                            <color key="backgroundColor" colorSpace="calibratedRGB" red="0.35686274509803922" green="0.015686274509803921" blue="0.58431372549019611" alpha="1"/>
-                        </imageView>
                     </tableView>
                     <navigationItem title="MyCPTC - Home" id="344" key="navigationItem"/>
                     <connections>
