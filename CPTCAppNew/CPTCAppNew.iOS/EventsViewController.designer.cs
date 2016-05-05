@@ -11,11 +11,19 @@ using UIKit;
 
 namespace CPTCAppNew.iOS
 {
-	[Register ("InfoTableViewController")]
-	partial class InfoTableViewController
+	[Register ("EventsViewController")]
+	partial class EventsViewController
 	{
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UITableView EventsTableView { get; set; }
+
 		void ReleaseDesignerOutlets ()
 		{
+			if (EventsTableView != null) {
+				EventsTableView.Dispose ();
+				EventsTableView = null;
+			}
 		}
 	}
 }
