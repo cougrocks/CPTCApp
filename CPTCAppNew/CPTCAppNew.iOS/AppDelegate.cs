@@ -9,7 +9,7 @@ namespace CPTCAppNew.iOS
 	public class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
-	    UIWindow window;
+	    //UIWindow window;
 
 		public override UIWindow Window {
 			get;
@@ -20,8 +20,6 @@ namespace CPTCAppNew.iOS
 		{
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
-
-            var mainviewcontroller = new UITableView();
 
 			return true;
 		}
