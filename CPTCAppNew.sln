@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+=======
 # Visual Studio 2012
 VisualStudioVersion = 14.0.24720.0
+>>>>>>> master
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPTCAppNew.Droid", "CPTCAppNew\CPTCAppNew.Droid\CPTCAppNew.Droid.csproj", "{23816A52-B28D-4106-A858-1505F012779B}"
 EndProject
@@ -38,9 +43,14 @@ Global
 		{23816A52-B28D-4106-A858-1505F012779B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{23816A52-B28D-4106-A858-1505F012779B}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+<<<<<<< HEAD
+		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhone.Build.0 = Debug|iPhoneSimulator
+=======
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhone.Build.0 = Debug|iPhone
+>>>>>>> master
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{F8437848-0DFA-4730-97CD-FE0302E1737D}.Release|Any CPU.ActiveCfg = Release|iPhone
